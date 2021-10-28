@@ -1,0 +1,21 @@
+#loginn{
+    padding: 3px;
+    border:solid black;
+    width: 50%;
+    
+}
+#logoutt{
+    padding: 3px;
+    border:solid black;
+    margin: 5px;
+    width: 50%;
+}
+footer{
+    background-color: black;
+}
+.container-fluid{
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-item{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
