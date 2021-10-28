@@ -4,7 +4,10 @@ function User( Uemail,UPw) {
  }
  $('#register').click(function () {
     let Uemail = $('#staticEmail').val();
-    let UPw = $('#inputPassword').val();
+    let UPw = $('#inputPassword').val(); 
+    if(Uemail===""&&UPw===""){
+      sweetAlert('Oops...', 'You must fill informations!', 'error');
+    }
     let newUser = new User(Uemail,UPw);
     let selectedUsers = JSON.parse(window.localStorage.getItem('RegisteredUsers'));
     console.log(selectedUsers);

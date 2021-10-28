@@ -1,6 +1,6 @@
 clothesDetails =[
     {name:"Style1",
-     description: "mix between  blue and browen",
+     description: "mix between  blue and brouwn",
      img1: "../img/img01jeans1.jpg",
      img2:"../img/img01watsh01.jpg",
      img3:"../img/img01shoes01.jpg"
@@ -70,6 +70,9 @@ clothesDetails =[
         img2:"../img/img09-shirt.jpg",
         img3:"../img/img09-shose.jpg" 
      }
+
+
+     
 ]
 $('#loginn').click(function(){
     window.location.href='loginPag.html';
