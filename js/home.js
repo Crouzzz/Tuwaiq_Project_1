@@ -11,6 +11,7 @@ $(document).ready(function(){
 
 });
 $('#goToFaveorit').click(function(){
-    window.location.href='favorit.html';
+    window.location.href='../favorit.html';
 })
+
 

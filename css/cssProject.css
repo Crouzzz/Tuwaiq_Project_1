@@ -19,3 +19,12 @@ footer{
 .nav-item{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Favforit_menue{
+    color: white;
+    background-color: black;
+}

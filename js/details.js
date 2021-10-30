@@ -74,6 +74,7 @@ clothesDetails =[
 
      
 ]
+
 $('#loginn').click(function(){
     window.location.href='loginPag.html';
     
@@ -82,6 +83,7 @@ $('#loginn').click(function(){
     $('#signUp').click(function(){
         window.location.href='sinup.html';
     })
+    
     
     $('#firstOne').on('click',()=>{
         window.localStorage.setItem('name', JSON.stringify(clothesDetails[0]));
